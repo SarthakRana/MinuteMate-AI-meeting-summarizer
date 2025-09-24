@@ -1,0 +1,7 @@
+Alex: Quick standup. Goal today: unblock pagination bug and assign follow-ups.
+Priya: We saw 500 errors for page>100 around 11pm. I'll pull logs after standup.
+Sarthak: Let's cap at 100 per page and move to cursor-based pagination for reliability.
+Alex: Sounds good. Priya, can you draft an RFC by Wednesday EOD?
+Priya: Yes, I'll draft and share for review by Wednesday.
+Sarthak: I'll add a gateway rate limit of 200 rps by tomorrow noon.
+Alex: Risk: QA is short-staffed this week; testing may slip.
